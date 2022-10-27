@@ -64,7 +64,7 @@ export const HeaderCnt = () => {
                         {navLinks.map((navLink, index) =>    
                             <li key={index}>
                                 <div className={navLink.title}>
-                                    <a href="/">{navLink.title}</a>
+                                    <a href="">{navLink.title}</a>
                                     {navLink.img}
                                 </div>
                                 <main>
